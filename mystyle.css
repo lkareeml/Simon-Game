@@ -1,0 +1,185 @@
+body, html {
+    height: 100%;
+}
+body {
+  background-color: brown;
+  background-image: url("https://www.m-promo.jp/img/top/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#z1 button{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+.white{background-color:white;}
+.rr {
+  background: red;
+}
+
+.gg {
+  background: green;
+}
+
+.yy {
+  background: yellow;
+}
+
+.bb {
+  background: blue;
+}
+
+.r {
+  background: #9f0f17;
+}
+
+.g {
+  background: #00a74a;
+}
+
+.y {
+  background: #cca707;
+}
+
+.b {
+  background: #094a8f;
+}
+
+.unselect {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+#g {
+  border-radius: 100% 0px 0px 0px;
+}
+
+#r {
+  border-radius: 0px 100% 0px 0px;
+}
+
+#y {
+  border-radius: 0px 0px 0px 100%;
+}
+
+#b {
+  border-radius: 0px 0px 100% 0px;
+}
+
+#con {
+  background: black;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 100%;
+  border: 25px solid black;
+  z-index: 0;
+}
+
+#g,
+#r,
+#y,
+#b {
+  z-index: 1;
+  width: 225px;
+  height: 225px;
+  float: left;
+  border: 10px solid black;
+}
+
+#center {
+  text-align: center;
+  margin: 100px 100px 110px 100px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  z-index: 2;
+  background-color: #ECE7EE;
+  border: 12px solid #333;
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#x1,
+#y1,
+#z1 {
+  float: left;
+  width: 55px;
+  height: 70px;
+}
+
+#y1 button{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+#screen {
+  background: white;
+  width: 55px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#box {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#sbox {
+  clear: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+h7 {
+  float: left;
+  border-radius: 30%;
+  padding: 2px 2px 2px 2px;
+}
+
+#sw {
+  float: left;
+  width: 50px;
+  height: 20px;
+  border: 2px solid black;
+  margin: 2px 2px 2px 2px;
+  cursor: pointer;
+}
+
+#box button {
+  box-shadow: 0 4px #999;
+}
+
+button.xbut:active {
+  box-shadow: 0 0 #0;
+  transform: translateY(2px);
+}
+
+button.xbut {
+  cursor: pointer;
+}
+
+button {
+  outline: 0 none !important;
+}
+
+#start {
+  background-color: #ff0101;
+}
